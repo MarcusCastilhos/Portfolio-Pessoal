@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #2979BF;
+    --secondary-color: #B2B2B2;
+    --ternary-color: #FFDDB5;
+    --background-color: #233B86;
+    --text-color: #ffffff;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Exo 2", serif;
+    background-color: var(--background-color);
+}
+
+body {
+    line-height: 1.6;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
