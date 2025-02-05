@@ -1,0 +1,58 @@
+.description {
+  display: flex;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  flex-grow: 1;
+  margin-top: 5rem;
+}
+
+.img-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-description img {
+  margin: 2rem;
+  width: 100vw;
+  height: 76vh;
+  object-fit: contain;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.side-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+  color: var(--text-color);
+  gap: 0.5rem;
+}
+
+.side-description h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.side-description p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
