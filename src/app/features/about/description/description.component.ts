@@ -10,28 +10,24 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         <div class="side-description fadeIn">
           <h2 class="title">Desenvolvedor Web Full-Stack</h2>
           <p>
-            Olá! Sou Marcus Castilhos, um desenvolvedor Full-Stack apaixonado
-            por tecnologia e inovação.
+            &nbsp;&nbsp;Sou um profissional apaixonado por tecnologia e
+            inovação, sempre em busca de novos desafios para crescer e evoluir.
+            Com uma trajetória marcada por disciplina e dedicação, venho de uma
+            experiência única no Exército, onde aprimorei habilidades valiosas
+            como liderança, responsabilidade e a capacidade de aprender
+            rapidamente. Esses valores são aplicados no meu trabalho, onde busco
+            sempre entregar soluções eficazes e criativas.
           </p>
           <p>
-            Com formação em Análise e Desenvolvimento de Sistemas e Engenharia
-            de Software, além de quatro pós-graduações na área de TI, estou
-            sempre em busca de novos desafios e oportunidades para aplicar meus
-            conhecimentos.
+            &nbsp;&nbsp;Estou em uma jornada contínua de desenvolvimento e estou
+            pronto para contribuir com meu potencial em projetos que me desafiem
+            a aprender ainda mais. Fique à vontade para explorar meu portfólio e
+            conhecer mais sobre minhas experiências e projetos. Se você procura
+            alguém comprometido, responsável e com uma grande capacidade de
+            adaptação, estou à disposição para conversar sobre como posso
+            agregar valor à sua equipe.
           </p>
-          <p>
-            Minha experiência no Exército Brasileiro como Sargento Técnico
-            Temporário me proporcionou disciplina, organização e uma grande
-            capacidade de aprendizado, habilidades que levo para o mundo do
-            desenvolvimento.
-          </p>
-          <p>
-            Tenho domínio em HTML, CSS, JavaScript, Node.js, Angular, React e
-            SQL, e meu objetivo é criar soluções eficientes, funcionais e que
-            gerem impacto. Estou aberto a oportunidades como desenvolvedor
-            Full-Stack, pronto para contribuir e crescer profissionalmente em um
-            time dinâmico e inovador. Vamos conversar?
-          </p>
+          <p>Vamos conversar!</p>
         </div>
         <div class="img-description fadeIn">
           <img src="/marcus.jpg" alt="Marcus" />
