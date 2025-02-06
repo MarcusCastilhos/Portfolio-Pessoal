@@ -65,7 +65,7 @@ export class DescriptionComponent implements OnInit, OnDestroy {
   startAutoSlide() {
     this.intervalId = setInterval(() => {
       this.nextSlide();
-    }, 3000);
+    }, 10000);
   }
 
   previousSlide() {
